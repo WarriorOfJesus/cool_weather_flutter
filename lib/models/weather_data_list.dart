@@ -17,15 +17,15 @@ class WeatherDataList extends Equatable {
   final String? dtTxt;
 
   const WeatherDataList({
-    this.dt,
-    this.main,
-    this.weather,
-    this.clouds,
-    this.visibility,
-    this.pop,
-    this.rain,
-    this.sys,
-    this.dtTxt,
+    required this.dt,
+    required this.main,
+    required this.weather,
+    required this.clouds,
+    required this.visibility,
+    required this.pop,
+    required this.rain,
+    required this.sys,
+    required this.dtTxt,
   });
 
   @override

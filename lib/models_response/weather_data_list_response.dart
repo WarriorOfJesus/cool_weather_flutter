@@ -25,7 +25,7 @@ class WeatherDataListResponse extends Equatable {
     this.pop,
     this.rain,
     this.sys,
-    this.dtTxt,
+    required this.dtTxt,
   });
 
   WeatherDataListResponse.fromJson(Map<String, dynamic> json)

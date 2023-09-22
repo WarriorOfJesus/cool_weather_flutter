@@ -1,6 +1,8 @@
 import 'package:cool_weather_flutter/models_response/coord_response.dart';
 import 'package:equatable/equatable.dart';
 
+import '../models/coord.dart';
+
 class CityResponse extends Equatable {
   final int? id;
   final String? name;

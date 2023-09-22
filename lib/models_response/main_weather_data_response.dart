@@ -13,10 +13,10 @@ class MainWeatherDataResponse extends Equatable {
     required this.tempKf,
   });
 
-  final double? temp;
-  final double? feelsLike;
-  final double? tempMin;
-  final double? tempMax;
+  final num? temp;
+  final num? feelsLike;
+  final num? tempMin;
+  final num? tempMax;
   final int? pressure;
   final int? seaLevel;
   final int? grndLevel;
